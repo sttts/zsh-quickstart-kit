@@ -189,10 +189,10 @@ if [ -d ~/.zsh-completions ]; then
   done
 fi
 
-echo
-echo "Current SSH Keys:"
-ssh-add -l
-echo
+#echo
+#echo "Current SSH Keys:"
+#ssh-add -l
+#echo
 
 # Honor old .zshrc.local customizations, but print depecation warning.
 if [ -f ~/.zshrc.local ]; then
