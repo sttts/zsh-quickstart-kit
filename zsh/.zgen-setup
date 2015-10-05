@@ -99,7 +99,10 @@ load-starter-plugin-list() {
   zgen load rimraf/k
 
   # Bullet train prompt setup
-  zgen load caiogondim/bullet-train-oh-my-zsh-theme bullet-train
+  # zgen load caiogondim/bullet-train-oh-my-zsh-theme bullet-train
+  zgen load S1cK94/minimal minimal
+
+  zgen load tarruda/zsh-autosuggestions
 
   # Save it all to init script
   zgen save
