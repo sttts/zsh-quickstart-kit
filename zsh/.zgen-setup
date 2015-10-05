@@ -45,7 +45,7 @@ load-starter-plugin-list() {
   zgen load unixorn/jpb.zshplugin
 
   # Warn you when you run a command that you've got an alias for
-  zgen load djui/alias-tips
+  #zgen load djui/alias-tips
 
   # Add my collection of git helper scripts
   zgen load unixorn/git-extra-commands
