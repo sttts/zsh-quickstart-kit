@@ -105,6 +105,7 @@ load-starter-plugin-list() {
   #zgen load tarruda/zsh-autosuggestions
 
   zgen load horosgrisa/autoenv
+  zgen load rupa/z
 
   # Save it all to init script
   zgen save
