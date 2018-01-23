@@ -100,11 +100,13 @@ load-starter-plugin-list() {
 
   # Bullet train prompt setup
   # zgen load caiogondim/bullet-train-oh-my-zsh-theme bullet-train
-  zgen load S1cK94/minimal minimal
+  zgen load sttts/S1cK94-minimal minimal
+  #zgen load subnixr/minimal
 
   #zgen load tarruda/zsh-autosuggestions
 
-  zgen load horosgrisa/autoenv
+  #zgen load horosgrisa/autoenv
+  zgen load zpm-zsh/autoenv
   zgen load rupa/z
 
   # Save it all to init script
